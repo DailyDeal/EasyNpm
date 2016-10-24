@@ -1,8 +1,8 @@
 {
-  "name": "LIBRARY_NAME_HERE",
+  "name": "EasyNpm_LIBRARY_NAME_HERE",
   "version": "1.0.0",
-  "description": "DESCRIPTION HERE",
-  "main": "lib/LIBRARY_NAME_HERE.js",
+  "description": "EasyNpm_DESCRIPTION HERE",
+  "main": "lib/EasyNpm_LIBRARY_NAME_HERE.js",
   "scripts": {
     "build": "webpack --mode=build",
     "dev": "webpack --progress --colors --watch --mode=dev",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DailyDeal/LIBRARY_NAME_HERE.git"
+    "url": "https://github.com/DailyDeal/EasyNpm_LIBRARY_NAME_HERE.git"
   },
   "keywords": [
     "javascript",
@@ -41,7 +41,7 @@
   "author": "DailyDeal GmbH <dev@dailydeal.de> (https://dailydeal.de)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DailyDeal/LIBRARY_NAME_HERE/issues"
+    "url": "https://github.com/DailyDeal/EasyNpm_LIBRARY_NAME_HERE/issues"
   },
-  "homepage": "https://github.com/DailyDeal/LIBRARY_NAME_HERE"
+  "homepage": "https://github.com/DailyDeal/EasyNpm_LIBRARY_NAME_HERE"
 }

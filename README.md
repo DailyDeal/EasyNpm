@@ -1,4 +1,4 @@
-# Webpack library starter
+# EasyNpm
 
 Webpack based boilerplate for producing libraries (Input: ES6, Output: universal library)
 
@@ -17,8 +17,7 @@ Webpack based boilerplate for producing libraries (Input: ES6, Output: universal
 ## Getting started
 
 1. Setting up the name of your library
-  * Open `webpack.config.js` file and change the value of `libraryName` variable.
-  * Open `package.json` file and change the value of `main` property so it matches the name of your library.
+  * There are a couple of setting that you will have to adapt to your new library. The easiest way to find all the places you need to adapt/change/fix is to make a search throughout the whole boilerplate folder searching for **EasyNpm_***. All the variables are under that namespace :)
 2. Build your library
   * Run `npm install` to get the project's dependencies
   * Run `npm run build` to produce minified version of your library.
