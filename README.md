@@ -12,19 +12,6 @@ Webpack based boilerplate for producing libraries (Input: ES6, Output: universal
 
 ## Process
 
-```
-ES6 source files
-       |
-       |
-    webpack
-       |
-       +--- babel, eslint
-       |
-  ready to use
-     library
-  in umd format
-```
-
 *Have in mind that you have to build your library before publishing. The files under the `lib` folder are the ones that should be distributed.*
 
 ## Getting started
@@ -45,10 +32,6 @@ ES6 source files
 * `npm run build` - produces production version of your library under the `lib` folder
 * `npm run dev` - produces development version of your library and runs a watcher
 * `npm run test` - well ... it runs the tests :)
-
-## Readings
-
-* [Start your own JavaScript library using webpack and ES6](http://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6)
 
 ## Misc
 
@@ -80,3 +63,5 @@ In the following example we are excluding React and Lodash:
   }
 }
 ```
+### Thanks
+Based on the good work of [krasimir](https://github.com/krasimir/) and it's repo [webpack-library-starter](https://github.com/krasimir/webpack-library-starter)
